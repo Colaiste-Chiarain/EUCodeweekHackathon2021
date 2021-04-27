@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
+*** Colaiste-Chiarain, EUCodeweekHackathon2021, colaiste, cpower@cco.ie, MicroChat, Microchat is a platform that allows charities to communicate to each other without Cellular data/Interent it transmits over Radio Frequency's
 -->
 
 
@@ -39,7 +39,7 @@
   <h3 align="center">MicroChat</h3>
 
   <p align="center">
-    project_description
+    Microchat is a platform that allows charities to communicate to each other without Cellular data/Interent it transmits over Rad
     <br />
     <a href="https://github.com/Colaiste-Chiarain/EUCodeweekHackathon2021"><strong>Explore the docs »</strong></a>
     <br />
@@ -89,41 +89,14 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+`Colaiste-Chiarain`, `EUCodeweekHackathon2021`, `colaiste`, `cpower@cco.ie`, `MicroChat`, `Microchat is a platform that allows charities to communicate to each other without Cellular data/Interent it transmits over Rad`
 
 
 ### Built With
 
-* []()
-* []()
-* []()
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
+* Python
+* MicroBit
+* Microsoft Code Blocks
 
 
 <!-- USAGE EXAMPLES -->
@@ -131,28 +104,12 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+See the [open issues](https://github.com/Colaiste-Chiarain/EUCodeweekHackathon2021/issues) for a list of proposed features (and known issues).
 
 
 <!-- LICENSE -->
@@ -165,34 +122,22 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@colaiste](https://twitter.com/colaiste) - email: cpower@cco.ie
+Your Name - [@colaiste](https://twitter.com/colaiste) - cpower@cco.ie: cpower@cco.ie
 
 Project Link: [https://github.com/Colaiste-Chiarain/EUCodeweekHackathon2021]
 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Colaiste-Chiarain/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/Colaiste-Chiarain/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Colaiste-Chiarain/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/Colaiste-Chiarain/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/Colaiste-Chiarain/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/Colaiste-Chiarain/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Colaiste-Chiarain/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/Colaiste-Chiarain/repo/issues
+[license-shield]: https://img.shields.io/github/license/Colaiste-Chiarain/repo.svg?style=for-the-badge
+[license-url]: https://github.com/Colaiste-Chiarain/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/Colaiste-Chiarain
