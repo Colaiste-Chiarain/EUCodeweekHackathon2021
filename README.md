@@ -36,19 +36,19 @@
     <img src="https://cco.ie/wp/wp-content/uploads/2019/09/CC-Logo-Colour-1.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">MicroChat</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Colaiste-Chiarain/EUCodeweekHackathon2021"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Colaiste-Chiarain/EUCodeweekHackathon2021">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Colaiste-Chiarain/EUCodeweekHackathon2021issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Colaiste-Chiarain/EUCodeweekHackathon2021issues">Request Feature</a>
   </p>
 </p>
 
