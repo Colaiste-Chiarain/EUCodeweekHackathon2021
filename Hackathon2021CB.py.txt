@@ -1,0 +1,78 @@
+#This code is for reading the Serial Data from the microbit
+import serial, time
+port = "COM7"
+baud = 115200
+s = serial.Serial(port)
+s.baudrate = baud
+import csv
+
+#This is the function that writes to the csv
+def writeCSV(message):
+    print(message)
+    r = csv.reader(open('threads.txt'))
+    lines = list(r)
+    lines[0].append(message)
+    print(lines)
+    with open('threads.txt', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(lines)
+    menu()
+
+#This function Lists the latest messages       
+def read_threads():
+  num_threads=int(input("How many threads?\n>"))
+  data = open('threads.txt', 'r')
+  reader = csv.reader(data)
+  print(next(reader)) 
+  for i in range (0,num_threads-1):
+    print(next(reader))
+
+#This function allows you to manually add new messages the     
+def add_thread():
+  lineno=0
+  thread_no=input("What is the thread number?\n>")
+  r = csv.reader(open('threads.txt'))
+  lines = list(r)
+  for i in range (0,len(lines)):
+    if lines[i][0]==thread_no:
+      lineno=i
+      print(lines[i]) 
+  new_comment=input("What would you like to add?\n>")
+  lines[i].append(new_comment)
+  print(lines[i]) 
+  writer = csv.writer(open('threads.txt', 'w'))
+  writer.writerows(lines)
+
+#This function takes input from the microbit and appends it to the messages
+def listenSerial():
+    while True:
+        #read message
+        message=str(s.readline().strip())
+        message=message[2:len(message)-1]
+        #load threads
+        time.sleep(1)
+        writeCSV(message)
+
+def menu():
+    ans=True
+    while ans:
+        print ("""
+        1.Read latest threads
+        2.Add to a thread
+        3.Listen for new messages
+        4.Exit/Quit
+        """)
+        ans=input("What would you like to do?\n> ") 
+        if ans=="1": 
+          read_threads()
+        elif ans=="2":
+          add_thread()
+        elif ans=="3":
+          listenSerial()
+        elif ans=="4":
+          break
+        elif ans !="":
+          print("\n Not Valid Choice Try again") 
+
+menu()
+ 
